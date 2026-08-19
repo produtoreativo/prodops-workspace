@@ -57,7 +57,7 @@ github:
   repository: "prodops-workspace"
   projects:
     product_repository:
-      number: 0          # replace with your GitHub Project number when available
+      number: 0  # TODO: set github.projects.product_repository.number
       name: "prodops-workspace"
 
 commit:
