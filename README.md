@@ -1,4 +1,4 @@
-[English](README.en.md) · [Por que este projeto é em português?](language.md)
+[English](README.en.md)
 
 # ProdOps Framework
 
@@ -21,7 +21,7 @@ ProdOps Framework  →  ProdOps Portfolio  →  ProdOps Workspace  →  Product 
 
 O Framework é o nível zero — define vocabulário, princípios, fluxo e modelo operacional. Portfolios, Workspaces e Product Repositories o adotam sem modificar suas definições canônicas.
 
-→ [Arquitetura completa e definições](framework/operating-model.md#arquitetura-do-prodops)
+→ [Arquitetura completa e definições](prodops/framework/operating-model.md#arquitetura-do-prodops)
 
 ---
 
@@ -38,8 +38,8 @@ Architecture, Plans, Evidence    Releases, Milestones
 Markdown sempre prevalece sobre GitHub.
 ```
 
-→ [Knowledge vs Execution](framework/knowledge-vs-execution.md)
-→ [Execution Mapping](framework/execution-mapping/README.md)
+→ [Knowledge vs Execution](prodops/framework/knowledge-vs-execution.md)
+→ [Execution Mapping](prodops/framework/execution-mapping/README.md)
 
 ---
 
@@ -53,8 +53,8 @@ Origin Stream → Business Signal → Fluxo Global ou Local
   → Iteration Plan → Delivery → Operation
 ```
 
-→ [Fluxo completo explicado](framework/flow.md)
-→ [Os quatro Origin Streams](framework/origin-streams.md)
+→ [Fluxo completo explicado](prodops/framework/flow.md)
+→ [Os quatro Origin Streams](prodops/framework/origin-streams.md)
 
 ---
 
@@ -62,15 +62,15 @@ Origin Stream → Business Signal → Fluxo Global ou Local
 
 | Documento | Descrição |
 |---|---|
-| [framework/principles.md](framework/principles.md) | Princípios fundacionais |
-| [framework/glossary.md](framework/glossary.md) | Termos canônicos |
-| [framework/flow.md](framework/flow.md) | Fluxo oficial do Framework |
-| [framework/origin-streams.md](framework/origin-streams.md) | Os quatro Origin Streams |
-| [framework/operating-model.md](framework/operating-model.md) | Modelo operacional completo |
-| [framework/knowledge-vs-execution.md](framework/knowledge-vs-execution.md) | Separação Knowledge × Execution |
-| [framework/execution-mapping/README.md](framework/execution-mapping/README.md) | Execution Mapping capability |
-| [framework/backlogs.md](framework/backlogs.md) | Backlogs e tipos de Work Item |
-| [framework/artifact-governance.md](framework/artifact-governance.md) | Governança de artefatos |
+| [prodops/framework/principles.md](prodops/framework/principles.md) | Princípios fundacionais |
+| [prodops/framework/glossary.md](prodops/framework/glossary.md) | Termos canônicos |
+| [prodops/framework/flow.md](prodops/framework/flow.md) | Fluxo oficial do Framework |
+| [prodops/framework/origin-streams.md](prodops/framework/origin-streams.md) | Os quatro Origin Streams |
+| [prodops/framework/operating-model.md](prodops/framework/operating-model.md) | Modelo operacional completo |
+| [prodops/framework/knowledge-vs-execution.md](prodops/framework/knowledge-vs-execution.md) | Separação Knowledge × Execution |
+| [prodops/framework/execution-mapping/README.md](prodops/framework/execution-mapping/README.md) | Execution Mapping capability |
+| [prodops/framework/backlogs.md](prodops/framework/backlogs.md) | Backlogs e tipos de Work Item |
+| [prodops/framework/artifact-governance.md](prodops/framework/artifact-governance.md) | Governança de artefatos |
 
 ---
 
@@ -126,9 +126,9 @@ bash prodops/scripts/sync-from-framework.sh --check
 
 | Área | Descrição |
 |---|---|
-| [framework/](framework/) | Framework canônico — não modificar por produto |
-| [artifacts/business/intents/](artifacts/business/intents/) | Business Intents registradas |
-| [journeys/](journeys/) | As 5 jornadas: Discovery, Delivery, Operation, Assessment, Diligence |
-| [artifacts/](artifacts/) | Artefatos produzidos: OBCs, BDD Features, planos, trilhas, evidências |
-| [templates/](templates/) | Templates centralizados por área |
-| [skills/](skills/) | Skills executáveis por agentes |
+| [prodops/framework/](prodops/framework/) | Framework canônico — não modificar por produto |
+| [prodops/artifacts/business-intents/](prodops/artifacts/business-intents/) | Business Intents registradas |
+| [prodops/framework/journeys/](prodops/framework/journeys/) | As 5 jornadas: Discovery, Delivery, Operation, Assessment, Diligence |
+| [prodops/artifacts/](prodops/artifacts/) | Artefatos produzidos: OBCs, BDD Features, planos, trilhas, evidências |
+| [prodops/templates/](prodops/templates/) | Templates centralizados por área |
+| [prodops/skills/](prodops/skills/) | Skills executáveis por agentes |
