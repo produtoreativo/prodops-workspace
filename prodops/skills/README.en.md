@@ -55,7 +55,7 @@ Framework; the Framework does not depend on them. See [`local/README.en.md`](loc
 
 | Skill | Purpose | Link |
 |---|---|---|
-| — | No local skills created yet. Add to `local/` when needed. | — |
+| _(no local skills registered)_ | — | — |
 
 ## Engineering References
 

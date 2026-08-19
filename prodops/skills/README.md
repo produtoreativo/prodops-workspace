@@ -55,7 +55,7 @@ Framework não depende delas. Ver [`local/README.md`](local/README.md).
 
 | Skill | Propósito | Link |
 |---|---|---|
-| — | Nenhuma skill local criada ainda. Adicione em `local/` quando necessário. | — |
+| _(nenhuma skill local registrada)_ | — | — |
 
 ## Referências de engenharia
 
