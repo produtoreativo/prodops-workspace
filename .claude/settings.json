@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/christiano.m.almeida/produtos/search-api/**)",
+      "Read(//Users/christiano.m.almeida/produtos/order-mngt-api/**)",
+      "Read(//Users/christiano.m.almeida/produtos/webshop-api/**)",
+      "Read(//Users/christiano.m.almeida/produtos/webshop/**)",
+      "Bash(lsof -ti:3002)",
+      "Read(//private/tmp/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/christiano.m.almeida/produtos/search-api/prodops/runtime",
+      "/Users/christiano.m.almeida/produtos/search-api/prodops/exec",
+      "/Users/christiano.m.almeida/produtos/order-mngt-api/src/pedidos",
+      "/Users/christiano.m.almeida/produtos/order-mngt-api/src",
+      "/Users/christiano.m.almeida/produtos/search-api/prodops/artifacts/bdd",
+      "/Users/christiano.m.almeida/produtos/search-api/prodops/artifacts/plans",
+      "/Users/christiano.m.almeida/produtos/order-mngt-api/test",
+      "/Users/christiano.m.almeida/produtos/order-mngt-api",
+      "/Users/christiano.m.almeida/produtos/order-mngt-api/prodops/artifacts/bdd",
+      "/Users/christiano.m.almeida/produtos/webshop-api",
+      "/Users/christiano.m.almeida/produtos/webshop-api/test",
+      "/Users/christiano.m.almeida/produtos/webshop-api/src/catalogo",
+      "/Users/christiano.m.almeida/produtos/webshop-api/src",
+      "/Users/christiano.m.almeida/produtos/webshop-api/prodops/artifacts/bdd",
+      "/Users/christiano.m.almeida/produtos/webshop",
+      "/Users/christiano.m.almeida/produtos/webshop/src/views/group",
+      "/Users/christiano.m.almeida/produtos/webshop/src/views/home/redux/sagas",
+      "/Users/christiano.m.almeida/produtos/webshop/src/views/home",
+      "/Users/christiano.m.almeida/produtos/webshop/src/views/home/redux/actions",
+      "/Users/christiano.m.almeida/produtos/webshop/src/views/home/redux/reducers",
+      "/Users/christiano.m.almeida/produtos/webshop/src/store",
+      "/Users/christiano.m.almeida/produtos/webshop/src",
+      "/Users/christiano.m.almeida/produtos/webshop/src/stories",
+      "/Users/christiano.m.almeida/produtos/webshop/src/store/models",
+      "/Users/christiano.m.almeida/produtos/webshop/prodops/artifacts/bdd"
+    ]
+  }
+}

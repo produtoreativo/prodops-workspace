@@ -55,7 +55,7 @@ Framework; the Framework does not depend on them. See [`local/README.en.md`](loc
 
 | Skill | Purpose | Link |
 |---|---|---|
-| — | No local skills created yet. Add to `local/` when needed. | — |
+| `payments-api-local-testing` | Run and validate local tests with payment contracts | [local/payments-api-local-testing/SKILL.md](local/payments-api-local-testing/SKILL.md) |
 
 ## Engineering References
 
