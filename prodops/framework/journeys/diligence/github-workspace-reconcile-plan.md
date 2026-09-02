@@ -901,7 +901,7 @@ Este plano está completo e documentado. Nenhuma ação foi executada.
 | Campo | Valor |
 |---|---|
 | Plan revisado por | Christiano Milfont |
-| Autorizado por | Christiano Milfont (christiano.m.almeida@accenture.com) |
+| Autorizado por | Christiano Milfont (cmilfont@produtoreativo.com) |
 | Data de autorização | 2026-07-24 |
 | Escopo autorizado | [x] Total (Fases 1-6) |
 | Rollback confirmado | [x] Sim |
